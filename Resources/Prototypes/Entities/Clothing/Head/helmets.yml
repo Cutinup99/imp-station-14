@@ -285,7 +285,7 @@
     heatingCoefficient: 0.01
     coolingCoefficient: 0.2
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.8
   - type: PressureProtection
     highPressureMultiplier: 0.25
     lowPressureMultiplier: 1000

@@ -116,7 +116,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: FireProtection
-    reduction: 0.8
+    reduction: 0.2
   - type: Armor
     modifiers:
       coefficients:

@@ -88,7 +88,7 @@
     heatingCoefficient: 0.001
     coolingCoefficient: 0.05
   - type: FireProtection
-    reduction: 0.8 # atmos firesuit offers best protection, hardsuits are a little vulnerable
+    reduction: 0.2 # atmos firesuit offers best protection, hardsuits are a little vulnerable
   - type: Armor
     modifiers:
       coefficients:

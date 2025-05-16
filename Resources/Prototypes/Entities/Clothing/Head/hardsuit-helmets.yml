@@ -70,7 +70,7 @@
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.8
 
 #Engineering Hardsuit
 - type: entity
@@ -327,7 +327,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.8
 
 #Chief Medical Officer's Hardsuit
 - type: entity
@@ -490,7 +490,7 @@
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.8
   - type: Armor
     modifiers:
       coefficients:
@@ -742,6 +742,11 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.8
 
 #ERT Medical Hardsuit
 - type: entity
@@ -847,7 +852,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.8
   - type: Armor
     modifiers:
       coefficients:

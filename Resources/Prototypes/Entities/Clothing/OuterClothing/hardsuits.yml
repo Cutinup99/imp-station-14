@@ -46,7 +46,7 @@
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
   - type: FireProtection
-    reduction: 0.8
+    reduction: 0.2
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor
@@ -368,7 +368,7 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: FireProtection
-    reduction: 0.8
+    reduction: 0.2
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: Armor
@@ -602,9 +602,9 @@
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.8
   - type: FireProtection
-    reduction: 0.8
+    reduction: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -897,6 +897,11 @@
   name: ERT engineer's hardsuit
   description: A protective hardsuit worn by the engineers of an emergency response team.
   components:
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.2
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: Clothing
@@ -970,7 +975,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: FireProtection
-    reduction: 0.8
+    reduction: 0.2
   - type: Armor
     modifiers:
       coefficients:
